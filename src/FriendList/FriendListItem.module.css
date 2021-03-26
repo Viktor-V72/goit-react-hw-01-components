@@ -1,0 +1,13 @@
+.online {
+  display: inline-block;
+  background-color: green;
+  width: 40px;
+  height: 40px;
+}
+
+.offline {
+  display: inline-block;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+}
