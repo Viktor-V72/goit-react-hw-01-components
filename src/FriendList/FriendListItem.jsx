@@ -5,10 +5,10 @@ import defaultImage from '../Profile/image.jpg';
 const FriendListItem = ({ avatar, name, isOnline }) => {
   const status = isOnline ? styles.online : styles.offline;
   return (
-    <li className="item">
+    <li className={styles.item}>
       <span className={status}>{isOnline}</span>
-      <img className="avatar" src={avatar} alt={name} width="48" />
-      <p className="name">{name}</p>
+      <img className={styles.avatar} src={avatar} alt={name} width="48" />
+      <p className={styles.name}>{name}</p>
     </li>
   );
 };
